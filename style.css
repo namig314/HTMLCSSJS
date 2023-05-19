@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .project {
   display: flex;
   flex-direction: column;
@@ -15,14 +19,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 30px;
 }
 .footer-right {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin: 0px 10px 0px;
+}
+.footer-right div{
+  margin-right: 5px;
 }
 .footer-left {
   margin: 0px 0px 0px 10px;
   width: 690px;
+  font-size: 16px;
 }
 .date {
   margin-bottom: 10px;
@@ -38,6 +49,11 @@
 .css,
 .js {
   margin: 0px 10px;
+  width: 350px;
+}
+.image img{
+  width: 100%;
+  height: 200px;
 }
 .h1 {
   margin-bottom: -10px;
@@ -48,8 +64,9 @@
 .article {
   margin-bottom: 10px;
   font-size: 15px;
-  font-family: "Rowdies", cursive;
+  height: 40px;
   font-family: "Sigmar", cursive;
+  padding-inline: 5px;
 }
 .clickable {
   background-color: pink;
@@ -72,5 +89,17 @@
   .css,
   .js {
     margin: 10px 0px;
+    width: 47vw;
+    min-width: 280px;
+  }
+  .article{
+    font-size: 11px;
+  }
+  .footer-left {
+    width: 690px;
+    font-size: 11px;
+  }
+  .footer-right {
+    margin: 5px 10px;
   }
 }
