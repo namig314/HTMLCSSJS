@@ -10,6 +10,7 @@
   height: 100vh;
 }
 .header {
+  margin-top: 5px;
   display: flex;
   justify-content: space-between;
 }
@@ -37,12 +38,9 @@
 }
 .date {
   margin-bottom: 10px;
-  font-family: "Rowdies", cursive;
   font-family: "Sigmar", cursive;
 }
 .inform {
-  font-family: "Creepster", cursive;
-  font-family: "Rowdies", cursive;
   font-family: "Sigmar", cursive;
 }
 .html,
@@ -75,8 +73,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Creepster", cursive;
-  font-family: "Rowdies", cursive;
   font-family: "Sigmar", cursive;
 }
 @media (max-width: 767px) {
